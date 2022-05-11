@@ -14,7 +14,7 @@ const Info = () => {
       ></InfoCard>
       <InfoCard
         cardTitle="Visit our location"
-        bgclass="bg-accent"
+        bgclass="bg-neutral"
         img={marker}
       ></InfoCard>
       <InfoCard

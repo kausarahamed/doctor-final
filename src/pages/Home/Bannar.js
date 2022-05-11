@@ -1,12 +1,13 @@
 import React from "react";
 import chair from "../../assets/images/chair.png";
+import Button from "../Shared/Button";
 
 const Bannar = () => {
   return (
     <div>
-      <div class="hero min-h-screen">
+      <div class=" ">
         <div class="hero-content flex-col lg:flex-row-reverse">
-          <img src={chair} class=" rounded-lg shadow-2xl" />
+          <img src={chair} class="max-w-sm rounded-lg shadow-2xl" />
           <div>
             <h1 class="text-5xl font-bold">Your New Smile Starts Here</h1>
             <p class="py-6">
@@ -14,9 +15,7 @@ const Bannar = () => {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button class="btn btn-primary text-white font-bold bg-gradient-to-r from-secondary to-primary">
-              Get Started
-            </button>
+            <Button>GET START</Button>
           </div>
         </div>
       </div>
