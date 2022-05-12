@@ -8,11 +8,11 @@ import Testimonial from "./Testimonial/Testimonial";
 
 const Home = () => {
   return (
-    <div className="px-12">
+    <div>
       <Bannar></Bannar>
       <Info></Info>
       <Services></Services>
-      {/* <Info2></Info2> */}
+      <Info2></Info2>
       <MakeApointment></MakeApointment>
       <Testimonial></Testimonial>
     </div>

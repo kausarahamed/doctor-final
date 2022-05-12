@@ -5,9 +5,9 @@ import Button from "../../Shared/Button";
 const Info2 = () => {
   return (
     <div>
-      <div class=" px-36 mb-16">
+      <div class="  mb-16">
         <div class="hero-content flex-col lg:flex-row gap-10 ">
-          <img className="h-[576px] w-[458px]" src={treatment} />
+          <img className="h-[576px] w-[458px]" src={treatment} alt="" />
           <div>
             <h1 class="text-5xl font-bold">
               Exceptional Dental Care, on Your Terms
